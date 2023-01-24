@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // &&   (va) konyuksiya
+
+      // 1 * 1 = 0  true
+      // 1 * 0 = 0
+      // 0 * 1 = 0
+      // 0 * 0 = 0
+
+      // || (yoki) dizyunksiya
+
+      // 1 + 1 = 1  true
+      // 1 + 0 = 1
+      // 0 + 1 = 1
+      // 0 + 0 = 0
+
+      // let a = 6,
+      //   b = 1
+
+      // console.log(a >= 0 || b < -2)
+
+      let son = 789
+
+      let yuzli = parseInt(son / 100)
+      let onli = parseInt(son / 10) % 10
+      let birli = son % 10
+
+      console.log(yuzli + 1 === onli && onli + 1 === birli) //21 - misol
+      // console.log(((birli + 1) === onli) && ((onli + 1) === yuzli)); // 22 - misol
+    </script>
+  </body>
+</html>

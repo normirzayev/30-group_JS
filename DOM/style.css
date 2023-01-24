@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.box{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.boxer{
+  box-shadow: 0 0 10px silver;
+  position: relative;
+  width: 300px;
+}
+.boxerText{
+  padding: 15px;
+}
+.boxerText p {
+  text-align: justify;
+  margin: 15px 0;
+}
+.chegirma{ 
+  background-color: red;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  color: white;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
